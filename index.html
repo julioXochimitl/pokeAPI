@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: #686D76;
+            padding: 10px;
+            }
+        .grid-item {
+            background-color: black;
+            border: 1px solid white;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="grid-container">
+        <div class="grid-item">
+
+            <div id="elemento"></div>
+
+            <!-- <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" width="30%" alt="">
+            <p>Bulbasaur es un Pokémon de tipo planta/veneno introducido en la primera generación. Es uno de los Pokémon iniciales que pueden elegir los entrenadores que empiezan su aventura en la región Kanto, junto a Squirtle y Charmander (excepto en Pokémon Amarillo). Destaca por ser el primer Pokémon de la Pokédex Nacional y la en la Pokédex de Kanto.</p> -->
+        </div>
+        <div class="grid-item">
+            
+            <div id="elemento2"></div>
+            <!-- <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png" width="30%" alt="">
+            <p>Squirtle es un Pokémon de tipo agua introducido en la primera generación. Es uno de los Pokémon iniciales que pueden elegir los entrenadores que empiezan su aventura en la región Kanto, junto a Bulbasaur y Charmander, excepto en Pokémon Amarillo.</p> -->
+        </div>
+        <div class="grid-item">
+            <div id="elemento3"></div>
+            <!-- <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png" width="30%" alt="">
+            <p>Charizard es un Pokémon de tipo fuego/volador, introducido en la primera generación. Es la evolución de Charmeleon y, a partir de la sexta generación, puede megaevolucionar en Mega-Charizard X o en Mega-Charizard Y. En la Octava generación puede realizar Gigamax y transformarse en Charizard Gigamax.</p> -->
+        </div>
+    </div>
+
+
+    <script src="pokeApi.js"></script>
+</body>
+</html>
